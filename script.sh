@@ -2,4 +2,5 @@
 # Esto es un comentario
 
 echo "Hola, mundo"
+sudo apt update
 date
