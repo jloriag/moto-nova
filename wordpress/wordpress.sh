@@ -6,5 +6,3 @@ chown -R www-data:www-data /var/www/html/wordpress
 chmod -R 755 /var/www/html/wordpress
 
 
-#!/bin/bash
-mysql -u root -p -h localhost < script.sql
