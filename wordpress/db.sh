@@ -1,5 +1,5 @@
 #!/bin/bash
-mysql -u root -p -h localhost < script.sql
+mysql < script.sql
 
 
 
