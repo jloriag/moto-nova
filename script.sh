@@ -1,7 +1,7 @@
 #!/bin/bash
 # Esto es un comentario
 
-echo "Hola, mundo"
+echo "Script de configuracion para wordpress"
 sudo apt update
 sudo apt install apache2 mysql-server php php-mysql libapache2-mod-php php-cli php-curl php-gd php-xml php-mbstring php-zip php-soap unzip -y
 cd /tmp
