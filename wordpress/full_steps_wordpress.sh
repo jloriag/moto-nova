@@ -1,2 +1,5 @@
+chmod +x step_1_wordpress_install.sh 
+chmod +x step_2_wordpress_db.sh
+
 source step_1_wordpress_install.sh 
 source step_2_wordpress_db.sh
