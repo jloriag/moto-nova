@@ -8,5 +8,5 @@ sudo -u www-data wp config create \
   --dbpass=s9enDl3tgin \
   --dbhost=localhost \
   --dbprefix=wp_ \
-  --path=/var/www/html
+  --path=/var/www/html 
 
