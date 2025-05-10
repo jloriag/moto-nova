@@ -1,7 +1,6 @@
 #!/bin/bash
 mysql < script.sql
 
-
 sudo -u www-data wp config create \
   --dbname=wordpress \
   --dbuser=wpuser \
