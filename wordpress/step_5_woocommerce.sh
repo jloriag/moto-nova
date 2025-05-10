@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo -u www-data wp plugin install woocommerce --activate --path=/var/www/html
 
 wp option update woocommerce_store_address "Ipis"

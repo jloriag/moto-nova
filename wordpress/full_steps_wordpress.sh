@@ -1,3 +1,4 @@
+#!/bin/bash
 chmod +x step_1_wp_cli.sh
 chmod +x step_2_wordpress_download.sh
 chmod +x step_3_wordpress_db.sh

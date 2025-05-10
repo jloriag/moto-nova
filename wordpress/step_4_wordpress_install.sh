@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo -u www-data wp core install \
   --url="http://localhost" \
   --title="Moto Nova" \

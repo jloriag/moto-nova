@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p /var/www/.wp-cli/cache
 chown -R www-data:www-data /var/www/.wp-cli
 chown -R www-data:www-data /var/www/html
