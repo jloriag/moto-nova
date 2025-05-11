@@ -1,5 +1,7 @@
 #!/bin/bash
-mysql < script.sql
+SCRIPT_PATH_DB="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+mysql < "$SCRIPT_PATH_DB/script.sql"
 
 sudo -u www-data wp config create \
   --dbname=wordpress \
